@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px) {
+    h1 { font-size: 23px; }
+    p { font-size: 12px; margin-left: 8px; margin-right: 8px; }
+}
+@media screen and (max-width: 400px) {
+    p { font-size: 12px; }
+}
+@media screen and (max-width: 375px) {
+    h1 { font-size: 22px; }
+    p { font-size: 12px; }
+}
+@media screen and (max-width: 350px) {
+    h1 { font-size: 19px; margin-left: 5px; margin-right: 5px; }
+    p { font-size: 10px; }
+}
+
+body { color: #fff; font-family: "Noto Sans Mono", monospace; text-align: center; margin: 0; padding: 0; }
+
+body{color:#fff;font-family:"Noto Sans Mono",monospace;text-align:center}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+video{bottom:0;min-height:100%;min-width:100%;position:fixed;right:0}
+#content{left:0;margin:1%;position:absolute;right:0;top:35%;text-shadow:0 0 8px #000}
+h1{padding-bottom:12px;padding-top:32px}
+#footer{bottom:0;margin-bottom:4px;margin-right:8px;position:absolute;right:0}

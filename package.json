@@ -1,0 +1,31 @@
+{
+  "name": "blocked-page-info",
+  "version": "1.0.0",
+  "description": "The page that will be displayed to the user, informing them that the website they are trying to visit is considered unsafe (blacklisted).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/blocked-page-info.git"
+  },
+  "keywords": [
+    "pihole"
+  ],
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/blocked-page-info/issues"
+  },
+  "homepage": "https://github.com/sefinek24/blocked-page-info#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-timeout-handler": "^2.2.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  }
+}
