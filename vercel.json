@@ -14,12 +14,12 @@
   ],
   "routes": [
     {
-      "src": "/((?!.*\\.\\w+$).*)",
-      "dest": "/server.js"
+      "src": "/(.*)",
+      "dest": "/public/$1"
     },
     {
-      "src": "/(.+\\.[a-z]+)$",
-      "dest": "/$1"
+      "src": "/server.js",
+      "dest": "/server.js"
     }
   ]
 }
