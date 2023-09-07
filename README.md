@@ -3,3 +3,6 @@
 
 ## Production
 https://blocking-page.sefinek.net
+
+## Pi-hole & AdGuard blocklists collection
+https://github.com/sefinek24/Sefinek-Blocklist-Collection
