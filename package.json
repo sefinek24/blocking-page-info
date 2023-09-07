@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
@@ -30,5 +31,8 @@
     "express-timeout-handler": "^2.2.2",
     "helmet": "^7.0.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
