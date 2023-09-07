@@ -1,5 +1,7 @@
 # 🛡️ Blocking-Page-Info
-<img src="assets/screenshot_ezgif.com-optimize.gif" alt="Screenshot">
+<a href="assets/screenshot.gif" target="_blank">
+    <img src="assets/screenshot_ezgif.com-optimize.gif" alt="Screenshot">
+</a>
 
 ## Production
 https://blocking-page.sefinek.net
