@@ -16,10 +16,6 @@
     {
       "src": "/((?!.*\\.\\w+$).*)",
       "dest": "/server.js"
-    },
-    {
-      "src": "/public/**",
-      "dest": "/public/$1"
     }
   ]
 }
