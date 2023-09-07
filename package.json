@@ -2,10 +2,10 @@
   "name": "blocked-page-info",
   "version": "1.0.0",
   "description": "The page that will be displayed to the user, informing them that the website they are trying to visit is considered unsafe (blacklisted).",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
+    "start": "node server.js",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
@@ -31,8 +31,5 @@
     "express-timeout-handler": "^2.2.2",
     "helmet": "^7.0.0",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
