@@ -1,25 +1,15 @@
 {
-  "name": "blocked-page-info",
   "version": 2,
-  "public": true,
   "builds": [
     {
       "src": "server.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
+      "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/$1"
-    },
-    {
-      "src": "/server.js",
-      "dest": "/server.js"
+      "dest": "server.js"
     }
   ]
 }
