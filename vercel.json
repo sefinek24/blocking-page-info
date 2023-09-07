@@ -18,7 +18,7 @@
       "dest": "/server.js"
     },
     {
-      "src": "/(.+\\.mp4|.+\\.[a-z]+)$",
+      "src": "/(.+\\.(mp4|ico|[a-z]+))$",
       "dest": "/public/$1"
     }
   ]
